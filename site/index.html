@@ -3,29 +3,52 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="widht=device-width, initial-scale=1.0">
-        <title>Title</title>
+        <title>1337-Gym</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
+            <div class="menu">
+                <i class="material-icons" onclick="toggleMenu()">close</i>
+                    <ul>
+                        <li>Hem</li>
+                        <li>Bli  Medlem</li>
+                        <li>Personlig Träning</li>
+                        <li>Gruppträning</li>
+                    </ul>
+            </div>
             <h1>1337-Gym</h1>
+            <i class="material-icons" onclick="toggleMenu()">menu</i>
+
         </header>
-        <div class="container">
-          
-          <div class="home">
-             <img src="img/bg-home.jpeg" width="100%">
-              <h2>Av proffs - För proffs</h2>
-              
+       <div class="container">
+          <div class="home1">
+             <img src="img/bg-home.jpeg" width="100%" height="100%">
+                <h2>Av proffs - För proffs</h2>
           </div>
+        
           <div class="home2">
-              <p>För elitidrottaren på resande fot till dig som bara vill ha professionell träning</p>
+            <img src="img/motivation.jpg" width="100%" height="100%">
+             <p>För elitidrottaren på resande fot till dig som bara vill ha professionell träning</p>
           </div>
-          
         </div>
-        <footer>
-            <p>Gamlestaden</p> <p>Hovås</p> <p>Kullavik</p>
-            <p>Kärra</p> <p>Landvetter</p> <p>Stenungssund</p>
-            <p>2018</p> <p>1337-Gym AB</p>
+        <script src="js/menu.js"></script>
+       <footer>
+            <div class="column1">
+                <p>Gamlestaden</p>
+                <p>Kärra</p>
+                <p>© 2018</p>
+            </div>
+            <div class="column2">
+                <p>Hovås</p>
+                <p>Landvetter</p>
+                <p>1337-Gym AB</p>
+            </div>
+            <div class="column3">
+                <p>Kullavik</p>
+                <p>Stenungssund</p>
+            </div>
         </footer>
     </body>
 </html>
